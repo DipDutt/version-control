@@ -10,7 +10,10 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Image(systemName: "heart.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height: 100)
         }
         .onAppear {
             
