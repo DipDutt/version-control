@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello")
             Rectangle()
                 .frame(width: 100, height: 100)
                 .foregroundStyle(.green)
