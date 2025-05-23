@@ -18,7 +18,7 @@ struct ContentView: View {
                 .frame(width: 200, height: 200)
                 .foregroundStyle(.green)
             Button("subscription") {
-                print("add subsciption")
+                print("add subsciption to me")
             }
         }
         .padding()
