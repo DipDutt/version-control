@@ -15,7 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello")
             Rectangle()
-                .frame(width: 100, height: 100)
+                .frame(width: 200, height: 200)
                 .foregroundStyle(.green)
         }
         .padding()
