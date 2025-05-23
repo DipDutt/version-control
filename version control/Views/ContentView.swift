@@ -16,7 +16,7 @@ struct ContentView: View {
             Text("Hello, world!")
             Rectangle()
                 .frame(width: 100, height: 100)
-                .foregroundStyle(.red)
+                .foregroundStyle(.green)
         }
         .padding()
     }
